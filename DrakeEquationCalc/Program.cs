@@ -81,11 +81,11 @@ namespace DrakeEquationCalc
             Console.WriteLine("Ok, I've skipped complicated details about whether their signals and our civilizations will overlap - you wouldn't understand it anyway.");
             if (detectablePlanets >= 1)
             {
-                Console.WriteLine("Considering all that, you believe there are " + detectablePlanets + " intelligent species in this galaxy. So why haven't we found any?");
+                Console.WriteLine("Based on your assumptions, there are " + detectablePlanets + " intelligent species in this galaxy. So why haven't we found any?");
             }
             else
             {
-                Console.WriteLine("By these calculations, we're alone in this galaxy. It's cool - the aliens wouldn't like you anyway.");
+                Console.WriteLine("Based on your assumptions, we're alone in this galaxy. It's cool - the aliens wouldn't like you anyway.");
             }
         }
     }
