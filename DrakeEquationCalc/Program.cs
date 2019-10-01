@@ -61,7 +61,7 @@ namespace DrakeEquationCalc
             }
             else
             {
-                Console.WriteLine("A, a misanthrope after my own heart!");
+                Console.WriteLine("Ah, a misanthrope after my own heart!");
             }
             Console.WriteLine("Last question! " + civilizedPlanets + " civilized planets - what percent do you think will be similar enough for us to detect?.");
             long detectablePercent = Convert.ToInt32(Console.ReadLine());
